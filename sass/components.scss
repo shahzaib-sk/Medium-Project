@@ -1,0 +1,343 @@
+//////////////////
+/// NAVIGATION
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+
+    height: 8rem;
+    border-bottom: 1px solid var(--color-black);
+    
+
+//////////////////
+/// LOGO  
+    &__logo {
+        display: flex;
+        align-items: center;
+        margin-left: 20rem;
+
+        &_medium {
+            background-color: none;
+            height: 5rem;
+            width: 5rem;
+        }
+
+        &_span {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--color-black);
+        }
+    }
+
+//////////////////
+/// USER NAV
+
+    &__user {
+        display: flex;
+        flex-wrap: wrap;
+
+        margin-right: 20rem;
+        align-items: center;
+
+        &_list {
+            display: flex;
+            flex-wrap: wrap;     
+        }
+
+        &_item {
+            font-size: 1.3rem;
+            list-style: none;
+        }
+
+        &_link {
+            padding: 1.7rem;
+            color: var(--color-black);
+            text-decoration: none;
+        }
+
+        &_btn {
+            &_1 {
+                border: none;
+                border-radius: 8rem;
+                padding: 1.2rem 2rem;
+                color: #fff;
+                background-color: var(--color-black-light);
+                cursor: pointer;
+                transition: all 1s;
+
+                &:hover {
+                    background-color: var(--color-black);
+                }
+            }
+        }
+    }
+}
+
+
+//////////////////
+/// front page 
+.front__page {
+    display: flex;
+    border-bottom: 1px solid var(--color-black);
+    
+}
+
+//////////////////
+/// CONTENT
+.content{
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: 20rem;
+    margin-top: 7rem;
+
+    &__heading {
+        font-size: 4.2rem;
+        color: var(--color-black);
+        
+    }
+
+    &__paragraph_1 {
+        font-size: 2rem;
+        margin-bottom: 3rem;
+        color: var(--color-black);
+    }
+
+    &__btn {       
+        &_1 {
+            background-color: var(--color-black-light);
+            border: none;
+            border-radius: 8rem;
+            padding: 1rem 5rem;
+            color: #fff;
+            font-size: 1.8rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 1s;
+
+            &:hover {
+                background-color: var(--color-black);
+            }
+            
+        }
+    }
+}
+
+
+//////////////////
+/// SIDEBAR
+.sidebar {
+    // background-color: orangered;
+    width: 50%;
+    height: 59.5vh;
+}
+
+
+//////////////////
+/// TRENDING SECTION
+
+.trend {
+    border-bottom: 1px solid #ced4da;
+}
+
+.trending-section {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 5rem 24rem;
+    margin-bottom: 3rem;
+}
+
+
+.trending {
+    flex: 33%;
+
+    padding-right: 2rem;
+    margin-bottom: 2.5rem;
+
+    
+    &__number {
+        font-size: 3rem;
+        font-weight: bolder;
+        padding-right: 2rem;
+        color: #ced4da;
+    }
+
+    &__person {
+        display: flex;
+        align-items: center;
+
+        font-size: 2rem;
+        // margin-top: 3rem;
+    }
+
+    &__img {    
+        display: flex;
+    }
+    
+    &__person_1 {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;        
+    }
+
+    &__heading {
+        font-weight: 700;
+    }
+
+    &__heading-tertiary {
+        color: var(--color-black);
+        font-size: 1.2rem;
+        margin-left: 1rem;
+    }
+
+    &__paragraph_tertiary {
+        font-size: 1.4rem;
+        color: var(--color-black);
+        font-weight: 900;
+        padding-left: 5.5rem;
+    }
+
+    &__time {
+        padding-left: 5.5rem;
+        font-size: 1.2rem;
+        color: var(--color-grey-dark);
+        
+    }
+}
+
+
+//////////////////
+/// SECTION NEWS
+.section__three {
+    display: flex;
+    margin: 5rem 23rem;
+    border-top: 1px solid var(--color-grey-light);
+}
+.section__3 {
+    // background-color: red;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 60%
+}
+
+.section__news {
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    // background-color: var(--color-grey-dark);
+    padding-bottom: 3rem;
+    margin-top: 8rem;
+
+}
+
+.news {
+    // padding-right: 10rem;
+    
+    &__graph-1 {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+
+    &__graph-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__p1 {
+        color: var(--color-black);
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    &__p2 {
+        color: var(--color-grey-dark);
+        font-size: 1.5rem;
+        font-weight: 400;
+    }  
+}
+
+.image__graph {
+
+    &__graph01 {
+        width: 5rem;
+        height: 5rem;     
+    }
+}
+
+
+/////////////////////////
+/// SECTION SKILLS
+.section {
+    // background-color: yellow;
+    flex: 1;
+
+    padding-left: 5rem;
+    padding-top: 7rem;
+    // margin-top: 7rem;
+
+    height: 45rem;
+
+    position: sticky;
+    top: 0;
+
+    // border-bottom: 1px solid var(--color-grey-light);
+
+    &__heading-3 {
+        font-size: 1.4rem;
+        margin-bottom: 3.5rem;
+        font-weight: 600;
+        color: var(--color-black);
+    }
+
+    &__skills-set {
+        display: flex;
+    }
+
+    &__ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+
+        flex-wrap: wrap;
+    }
+
+    &__li {
+        margin-bottom: 3rem;
+        
+    }
+
+    &__link {
+        text-decoration: none;
+        font-size: 1.2rem;
+        margin-right: 2rem;
+        // margin-bottom: 3rem;
+        padding: 1rem;
+        border-radius: 100px;
+
+        background-color: var(--color-grey-light-2);
+        color: black;
+
+        &:hover {
+            background-color: var(--color-grey-light-3);
+        }
+
+    }
+
+    &__more-btn {
+        font-size: 1.25rem;
+        color: green;
+
+
+        &:hover {
+            color: var(--color-grey-dark);
+            cursor: pointer;
+        }
+    }
+
+}
+
