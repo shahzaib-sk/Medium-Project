@@ -8,13 +8,6 @@ A **static, non-responsive clone** of Medium's interface, built purely with HTML
 
 ---
 
-## 🖥️ Preview
-
-![Medium Clone Screenshot](/assets/screenshot.png)  
-*Replace with your own screenshot*
-
----
-
 ## 📌 Key Features
 
 - Static layout mimicking Medium's article page design
@@ -32,4 +25,6 @@ A **static, non-responsive clone** of Medium's interface, built purely with HTML
 - **Not responsive** (desktop-only view)
 - No interactive elements (comments, claps, etc.)
 - No backend/database integration
-- Static content only (hardcoded in HTML)
+- Static content only (only used html css javascript)
+- without any framework
+  
